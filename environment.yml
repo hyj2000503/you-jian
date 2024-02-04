@@ -1,0 +1,6 @@
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v2
+
+  - name: Update conda environment
+    run: conda env update --file environment.yml --name base
