@@ -2,8 +2,9 @@ name: Send Email Workflow
 
 on:
   schedule:
-    # 每天北京时间14:55（UTC时间06:55）执行
-    - cron: '55 6 * * *'
+    # 每天北京时间晚上9点（UTC时间13:00）
+    - cron: '0 13 * * *'
+
 
 
 jobs:
